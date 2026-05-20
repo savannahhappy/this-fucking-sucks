@@ -18,7 +18,7 @@ class Item:
     def print_description(self):
         return f"You found a {self.description}."        
         
-
+import tank
 class Tank:
 
     def __init__(self, capacity):
@@ -27,7 +27,7 @@ class Tank:
     def consume_air(self):
         self.air = self.air - 1
 
-
+import bag
 class Bag:
     
     def __init__(self, capacity):
@@ -45,7 +45,7 @@ class Bag:
             value += item.value
         return value
 
-
+import diver 
 class Diver:
     
     def __init__(self, name, tankSize, bagCapacity):
